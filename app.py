@@ -7,7 +7,10 @@ app = FastAPI()
 def index():
     return "This is the front page"
 
-    
+
  @main.get('about')
  def about():
     return "About page"
+
+
+    #This is the backend page
